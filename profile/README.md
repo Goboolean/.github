@@ -1,20 +1,20 @@
 ### Application
 
-1. stock-fetch-server
-2. model-server
-3. ml-server
-4. command-server
-5. query-server
-6. manager-cli
-7. client
+1. fetch-server
+2. command-server
+3. query-server
+4. model-server
+5. ml-server
+6. client
+7. manager-cli
 
 
 ### Persistance
 
-1. Kafka
-2. MongoDB
-3. PostgreSQL
-4. Redis
+1. MongoDB
+2. PostgreSQL
+3. Redis
+4. Kafka
 5. Buycycle
 
 
