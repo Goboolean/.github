@@ -2,7 +2,7 @@
 
 1. fetch-server
 2. command-server
-3. query-server
+3. join-server
 4. simulation-server
 5. simulation-worker
 
@@ -13,7 +13,7 @@
 2. manager-cli
 
 
-### Persistance
+### Persistence
 
 1. Kafka
 2. MongoDB
@@ -27,6 +27,7 @@
 1. Docker
 2. Kubernetes
 3. Traefik
+4. Github Action
 
 
 ### Monitor
@@ -37,5 +38,6 @@
 
 ### External APIs
 
-1. Buycycle
-2. Polygon
+1. KIS
+2. Buycycle
+3. Polygon
