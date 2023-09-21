@@ -13,37 +13,37 @@ Quant Trading 은 주식이나 선물 등의 상품 거래를 수학과 통계�
 
 | Go |
 | -- |
-| <img src="../asset/go.svg" alt="Go" width="30px"> |
+| <img src="https://raw.githubusercontent.com/Goboolean/.github/main/asset/go.svg" alt="Go" width="30px"> |
 
 
 #### Database
 
 | PostgreSQL | MongoDB | etcd | MiniO |
 | -----------| ------- | ---- | ----- |
-| <img src="../asset/postgresql.svg" width="30px"> | <img src="../asset/mongodb.svg" width="30px"> | <img src="../asset/etcd.svg" width="30px"> | <img src="../asset/minio.svg" width="30px"> | 
+| <img src="https://raw.githubusercontent.com/Goboolean/.github/main/asset/postgresql.svg" width="30px"> | <img src="https://raw.githubusercontent.com/Goboolean/.github/main/asset/mongodb.svg" width="30px"> | <img src="https://raw.githubusercontent.com/Goboolean/.github/main/asset/etcd.svg" width="30px"> | <img src="https://raw.githubusercontent.com/Goboolean/.github/main/asset/minio.svg" width="30px"> | 
 
 
 #### DevTools
 | Kafka | gRPC | 
 | ----- | ---- |
-| <img src="../asset/apachekafka.svg" width="30px"> | <img src="../asset/grpc.svg" width="30px"> |
+| <img src="https://raw.githubusercontent.com/Goboolean/.github/main/asset/apachekafka.svg" width="30px"> | <img src="https://raw.githubusercontent.com/Goboolean/.github/main/asset/grpc.svg" width="30px"> |
 
 
 #### Cloud Engineering
 | Docker | Kubernetes | Helm |
 | ------ | ---------- | ---  |
-| <img src="../asset/docker.svg" width="30px"> | <img src="../asset/kubernetes.svg" width="30px"> | <img src="../asset/helm.svg" width="30px"> |
+| <img src="https://raw.githubusercontent.com/Goboolean/.github/main/asset/docker.svg" width="30px"> | <img src="https://raw.githubusercontent.com/Goboolean/.github/main/asset/kubernetes.svg" width="30px"> | <img src="https://raw.githubusercontent.com/Goboolean/.github/main/asset/helm.svg" width="30px"> |
 
 
 #### Ops
 | GCP | Github Actions | Traefik |
 | --- | -------------- | ------- |
-| <img src="../asset/googlecloud.svg" width="30px"> | <img src="../asset/githubactions.svg" width="30px"> | <img src="../asset/traefikproxy.svg" width="30px"> |
+| <img src="https://raw.githubusercontent.com/Goboolean/.github/main/asset/googlecloud.svg" width="30px"> | <img src="https://raw.githubusercontent.com/Goboolean/.github/main/asset/githubactions.svg" width="30px"> | <img src="https://raw.githubusercontent.com/Goboolean/.github/main/asset/traefikproxy.svg" width="30px"> |
 
 
 #### Machine Learning
 | Pytorch | Kubeflow |
 | ------- | -------- |
-| <img src="../asset/pytorch.svg" width="30px"> | <img src="../asset/kubeflow.svg" width="30px"> |
+| <img src="https://raw.githubusercontent.com/Goboolean/.github/main/asset/pytorch.svg" width="30px"> | <img src="https://raw.githubusercontent.com/Goboolean/.github/main/asset/kubeflow.svg" width="30px"> |
 
 
