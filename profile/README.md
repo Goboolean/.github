@@ -9,39 +9,43 @@ Quant Trading 은 주식이나 선물 등의 상품 거래를 수학과 통계�
 # We Currently Use..
 
 
-#### Language
+**Language**
 
 | Go |
 | -- |
 | <img src="https://raw.githubusercontent.com/Goboolean/.github/main/asset/icon/go.svg" alt="Go" width="30px"> |
 
 
-#### Database
+**Database**
 
 | PostgreSQL | MongoDB | etcd | MiniO |
 | -----------| ------- | ---- | ----- |
 | <img src="https://raw.githubusercontent.com/Goboolean/.github/main/asset/icon/postgresql.svg" width="30px"> | <img src="https://raw.githubusercontent.com/Goboolean/.github/main/asset/icon/mongodb.svg" width="30px"> | <img src="https://raw.githubusercontent.com/Goboolean/.github/main/asset/icon/etcd.svg" width="30px"> | <img src="https://raw.githubusercontent.com/Goboolean/.github/main/asset/icon/minio.svg" width="30px"> | 
 
 
-#### DevTools
+**Data Stream**
+
 | Kafka | gRPC | 
 | ----- | ---- |
 | <img src="https://raw.githubusercontent.com/Goboolean/.github/main/asset/icon/apachekafka.svg" width="30px"> | <img src="https://raw.githubusercontent.com/Goboolean/.github/main/asset/icon/grpc.svg" width="30px"> |
 
 
-#### Cloud Engineering
+**Cloud Engineering**
+
 | Docker | Kubernetes | Helm |
 | ------ | ---------- | ---  |
 | <img src="https://raw.githubusercontent.com/Goboolean/.github/main/asset/icon/docker.svg" width="30px"> | <img src="https://raw.githubusercontent.com/Goboolean/.github/main/asset/icon/kubernetes.svg" width="30px"> | <img src="https://raw.githubusercontent.com/Goboolean/.github/main/asset/icon/helm.svg" width="30px"> |
 
 
-#### Ops
+**Ops**
+
 | GCP | Github Actions | Traefik |
 | --- | -------------- | ------- |
 | <img src="https://raw.githubusercontent.com/Goboolean/.github/main/asset/icon/googlecloud.svg" width="30px"> | <img src="https://raw.githubusercontent.com/Goboolean/.github/main/asset/icon/githubactions.svg" width="30px"> | <img src="https://raw.githubusercontent.com/Goboolean/.github/main/asset/icon/traefikproxy.svg" width="30px"> |
 
 
-#### Machine Learning
+**Machine Learning**
+
 | Pytorch | Kubeflow |
 | ------- | -------- |
 | <img src="https://raw.githubusercontent.com/Goboolean/.github/main/asset/icon/pytorch.svg" width="30px"> | <img src="https://raw.githubusercontent.com/Goboolean/.github/main/asset/icon/kubeflow.svg" width="30px"> |
