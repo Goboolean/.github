@@ -47,3 +47,37 @@ Quant Trading 은 주식이나 선물 등의 상품 거래를 수학과 통계�
 | <img src="https://raw.githubusercontent.com/Goboolean/.github/main/asset/icon/pytorch.svg" width="30px"> | <img src="https://raw.githubusercontent.com/Goboolean/.github/main/asset/icon/kubeflow.svg" width="30px"> |
 
 
+
+
+# Our Architecture
+
+
+Goboolean Server 은 **fetch-system.worker** **fetch-system.master** **core-system.command** **core-system.worker** **core-system.join** **manager-server** **identity-server** 이렇게 7개의 어플리케이션 컴포넌트와 **Kafka** **MongoDB** **PostgreSQL** 등의 오픈소스 컴포넌트로 이루어진 MSA 아키텍처를 이루고 있습니다.
+
+아키텍처에 대한 자세한 설명은 [링크](https://github.com/Goboolean/.github/docs/architecture/full-system) 를 참고해주세요
+
+
+<img src="https://raw.githubusercontent.com/Goboolean/.github/main/asset/diagram/full-architecture.png" alt="full-diagram" > 
+
+
+# Our Repositories
+
+
+아래는 운영 & 작업중인 리포지토리입니다.
+
+| Repository Name   | Links | 
+| ------------------- | --- |
+| fetch-system.worker | <a href="https://github.com/Goboolean/fetch-system.worker"> <img src="https://cdn-icons-png.flaticon.com/512/733/733609.png" alt="깃헙 링크" height="20"/> </a>  <a href="https://github.com/Goboolean/.github/tree/main/docs/repositories/fetch-system.worker"> <img src="https://cdn-icons-png.flaticon.com/512/2991/2991112.png" alt="문서 링크" width="20"/> </a> |
+| fetch-system.master | <a href="https://github.com/Goboolean/fetch-system.master"> <img src="https://cdn-icons-png.flaticon.com/512/733/733609.png" alt="깃헙 링크" width="20"/> </a>  <a href="https://github.com/Goboolean/.github/tree/main/docs/repositories/fetch-system.master"> <img src="https://cdn-icons-png.flaticon.com/512/2991/2991112.png" alt="문서 링크" width="20"/> </a> |
+| fetch-system.infrastructure | <a href="https://github.com/Goboolean/fetch-system.infrastructure"> <img src="https://cdn-icons-png.flaticon.com/512/733/733609.png" alt="깃헙 링크" width="20"/> </a> <a href="https://github.com/Goboolean/.github/tree/main/docs/repositories/fetch-system.infrastructure"> <img src="https://cdn-icons-png.flaticon.com/512/2991/2991112.png" alt="문서 링크" width="20"/> </a> |
+| fetch-server.v1 | <a href="https://github.com/Goboolean/fetch-server.v1"> <img src="https://cdn-icons-png.flaticon.com/512/733/733609.png" alt="깃헙 링크" width="20"/> </a> |
+| core-system.command | <a href="https://github.com/Goboolean/core-system.command"> <img src="https://cdn-icons-png.flaticon.com/512/733/733609.png" alt="깃헙 링크" width="20"/> </a>  <a href="https://github.com/Goboolean/.github/tree/main/docs/repositories/core-system.command"> <img src="https://cdn-icons-png.flaticon.com/512/2991/2991112.png" alt="문서 링크" width="20"/> </a> |
+| core-system.worker  | <a href="https://github.com/Goboolean/core-system.worker"> <img src="https://cdn-icons-png.flaticon.com/512/733/733609.png" alt="깃헙 링크" width="20"/> </a>  <a href="https://github.com/Goboolean/.github/tree/main/docs/repositories/core-system.worker"> <img src="https://cdn-icons-png.flaticon.com/512/2991/2991112.png" alt="문서 링크" width="20"/> </a> |
+| core-system.join    | <a href="https://github.com/Goboolean/core-system.worker"> <img src="https://cdn-icons-png.flaticon.com/512/733/733609.png" alt="깃헙 링크" width="20"/> </a>  <a href="https://github.com/Goboolean/.github/tree/main/docs/repositories/core-system.join"> <img src="https://cdn-icons-png.flaticon.com/512/2991/2991112.png" alt="문서 링크" width="20"/> </a> |
+| manager-server  | <a href="https://github.com/Goboolean/manager-server"> <img src="https://cdn-icons-png.flaticon.com/512/733/733609.png" alt="깃헙 링크" width="20"/> </a>  <a href="https://github.com/Goboolean/.github/tree/main/docs/repositories/manager-server"> <img src="https://cdn-icons-png.flaticon.com/512/2991/2991112.png" alt="문서 링크" width="20"/> </a> |
+| identity-server | <a href="https://github.com/Goboolean/identity-server"> <img src="https://cdn-icons-png.flaticon.com/512/733/733609.png" alt="깃헙 링크" width="20"/> </a>  <a href="https://github.com/Goboolean/.github/tree/main/docs/repositories/identity-server"> <img src="https://cdn-icons-png.flaticon.com/512/2991/2991112.png" alt="문서 링크" width="20"/> </a> |
+| common | <a href="https://github.com/Goboolean/common"> <img src="https://cdn-icons-png.flaticon.com/512/733/733609.png" alt="깃헙 링크" width="20"/> </a>  <a href="https://github.com/Goboolean/.github/tree/main/docs/repositories/common"> <img src="https://cdn-icons-png.flaticon.com/512/2991/2991112.png" alt="문서 링크" width="20"/> </a> |
+| ops    | <a href="https://github.com/Goboolean/ops"> <img src="https://cdn-icons-png.flaticon.com/512/733/733609.png" alt="깃헙 링크" width="20"/> </a>  |
+| MLRefactorized | <a href="https://github.com/Goboolean/MLRefactorized"> <img src="https://cdn-icons-png.flaticon.com/512/733/733609.png" alt="깃헙 링크" width="20"/> </a> |
+
+
