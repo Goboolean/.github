@@ -56,7 +56,7 @@ Goboolean Server 은 **fetch-system.worker** **fetch-system.master** **core-syst
 아키텍처에 대한 자세한 설명은 [링크](https://github.com/Goboolean/.github/tree/main/docs/architecture/full-system) 를 참고해주세요
 
 
-<img src="https://raw.githubusercontent.com/Goboolean/.github/main/asset/diagram/full-architecture.png" alt="full-diagram" > 
+<img src="https://raw.githubusercontent.com/Goboolean/.github/main/asset/diagram/full-system.png" alt="full-diagram" > 
 
 
 # Our Repositories

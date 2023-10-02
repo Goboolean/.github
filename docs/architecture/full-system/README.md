@@ -6,7 +6,7 @@
 
 
 
-<img src="https://raw.githubusercontent.com/Goboolean/.github/main/asset/diagram/full-architecture.png" alt="full-diagram" > 
+<img src="https://raw.githubusercontent.com/Goboolean/.github/main/asset/diagram/full-system.png" alt="full-diagram" > 
 
 
 
