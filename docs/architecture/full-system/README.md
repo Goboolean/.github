@@ -1,6 +1,6 @@
 
 
-# Introduction
+# Full System Introduction
 
 Goboolean 서비스의 구조는 많은 일반적인 웹서비스와는 다소 다른 양상을 띄고 있습니다. 일반적인 서비스에서 유즈케이스는 사용자가 서버에 요청을 보내면 데이터베이스에 쿼리하여 적절한 결과를 응답하여 마치는 형태를 띕니다. Goboolean 에서는 서비스의 특성상 하나의 유즈케이스 호흡이 상당히 길고, 데이터 및 이벤트의 파이프라인이 여러 인스턴스에 걸쳐서 존재합니다. 설계를 통해 높은 서비스 복잡도를 어떻게 해소하였는지, 그리고 어떤 방식으로 서비스를 개선 하였는지를 소개합니다!
 
@@ -45,4 +45,5 @@ identity server 은 계정, 인증 등의 정보를 다룹니다.
 
 <img src="https://raw.githubusercontent.com/Goboolean/.github/main/asset/diagram/fetch-system.png" alt="fetch-system" > 
 
-<img src="https://raw.githubusercontent.com/Goboolean/.github/main/asset/diagram/core-system.png" alt="core-system" > 
+<img src="https://raw.githubusercontent.com/Goboolean/.github/main/asset/diagram/core-system.png" alt="core-system" >
+
