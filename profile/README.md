@@ -59,22 +59,33 @@ Goboolean Server 은 **fetch-system.worker** **fetch-system.master** **core-syst
 <img src="https://raw.githubusercontent.com/Goboolean/.github/main/asset/diagram/full-system.png" alt="full-diagram" > 
 
 
+
+아키텍처 및 서비스에 대한 구체적인 소개는 아래 링크를 참고해주세요.
+
+
+
+
+
 # Our Repositories
 
 아래는 Goboolean 에서 현재 개발중인 리포지토리입니다.
+개발 성숙도를 <img src="https://cdn-icons-png.flaticon.com/512/1951/1951379.png" alt="" width="20"/> <img src="https://cdn-icons-png.flaticon.com/512/4321/4321473.png" alt="" width="20"/> <img src="https://cdn-icons-png.flaticon.com/512/1682/1682249.png" alt="" width="20"/> <img src="https://cdn-icons-png.flaticon.com/512/5875/5875988.png" alt="" width="20"/> 순서로 나타내었습니다.
 
 | Repository Name   | Link | Level |
 | ------------------- | --- | ----- |
 | fetch-system.worker | <a href="https://github.com/Goboolean/fetch-system.worker"> <img src="https://cdn-icons-png.flaticon.com/512/733/733609.png" alt="깃헙 링크" height="20"/> </a> | <img src="https://cdn-icons-png.flaticon.com/512/4321/4321473.png" alt="" width="20"/> |
-| fetch-system.master | <a href="https://github.com/Goboolean/fetch-system.master"> <img src="https://cdn-icons-png.flaticon.com/512/733/733609.png" alt="깃헙 링크" width="20"/> </a> | <img src="https://cdn-icons-png.flaticon.com/512/4321/4321473.png" alt="" width="20"/> |
+| fetch-system.master | <a href="https://github.com/Goboolean/fetch-system.master"> <img src="https://cdn-icons-png.flaticon.com/512/733/733609.png" alt="깃헙 링크" width="20"/> </a> | <img src="https://cdn-icons-png.flaticon.com/512/1682/1682249.png" alt="" width="20"/> |
 | fetch-system.infrastructure | <a href="https://github.com/Goboolean/fetch-system.infrastructure"> <img src="https://cdn-icons-png.flaticon.com/512/733/733609.png" alt="깃헙 링크" width="20"/> </a> | <img src="https://cdn-icons-png.flaticon.com/512/4321/4321473.png" alt="" width="20"/> |
 | fetch-server.v1 | <a href="https://github.com/Goboolean/fetch-server.v1"> <img src="https://cdn-icons-png.flaticon.com/512/733/733609.png" alt="깃헙 링크" width="20"/> </a> | <img src="https://cdn-icons-png.flaticon.com/512/5875/5875988.png" alt="" width="20"/> |
-| core-system.command | <a href="https://github.com/Goboolean/core-system.command"> <img src="https://cdn-icons-png.flaticon.com/512/733/733609.png" alt="깃헙 링크" width="20"/> </a> | <img src="https://cdn-icons-png.flaticon.com/512/4321/4321473.png" alt="" width="20"/> |
-| core-system.worker  | <a href="https://github.com/Goboolean/core-system.worker"> <img src="https://cdn-icons-png.flaticon.com/512/733/733609.png" alt="깃헙 링크" width="20"/> </a> | <img src="https://cdn-icons-png.flaticon.com/512/4321/4321473.png" alt="" width="20"/> |
-| core-system.join    | <a href="https://github.com/Goboolean/core-system.worker"> <img src="https://cdn-icons-png.flaticon.com/512/733/733609.png" alt="깃헙 링크" width="20"/> </a> | <img src="https://cdn-icons-png.flaticon.com/512/4321/4321473.png" alt="" width="20"/> |
+| core-system.command | <a href="https://github.com/Goboolean/core-system.command"> <img src="https://cdn-icons-png.flaticon.com/512/733/733609.png" alt="깃헙 링크" width="20"/> </a> | <img src="https://cdn-icons-png.flaticon.com/512/1682/1682249.png" alt="" width="20"/> |
+| core-system.worker  | <a href="https://github.com/Goboolean/core-system.worker"> <img src="https://cdn-icons-png.flaticon.com/512/733/733609.png" alt="깃헙 링크" width="20"/> </a> | <img src="https://cdn-icons-png.flaticon.com/512/1682/1682249.png" alt="" width="20"/> |
+| core-system.join    | <a href="https://github.com/Goboolean/core-system.worker"> <img src="https://cdn-icons-png.flaticon.com/512/733/733609.png" alt="깃헙 링크" width="20"/> </a> | <img src="https://cdn-icons-png.flaticon.com/512/1951/1951379.png" alt="" width="20"/> |
 | manager-server  | <a href="https://github.com/Goboolean/manager-server"> <img src="https://cdn-icons-png.flaticon.com/512/733/733609.png" alt="깃헙 링크" width="20"/> </a> | <img src="https://cdn-icons-png.flaticon.com/512/5875/5875988.png" alt="" width="20"/> |
 | identity-server | <a href="https://github.com/Goboolean/identity-server"> <img src="https://cdn-icons-png.flaticon.com/512/733/733609.png" alt="깃헙 링크" width="20"/> </a> | <img src="https://cdn-icons-png.flaticon.com/512/1951/1951379.png" alt="" width="20"/> |
 | client | <a href="https://github.com/Goboolean/client"> <img src="https://cdn-icons-png.flaticon.com/512/733/733609.png" alt="깃헙 링크" width="20"/> </a> | <img src="https://cdn-icons-png.flaticon.com/512/1951/1951379.png" alt="" width="20"/> |
 | common | <a href="https://github.com/Goboolean/common"> <img src="https://cdn-icons-png.flaticon.com/512/733/733609.png" alt="깃헙 링크" width="20"/> </a> | <img src="https://cdn-icons-png.flaticon.com/512/5875/5875988.png" alt="" width="20"/> |
 | ops    | <a href="https://github.com/Goboolean/ops"> <img src="https://cdn-icons-png.flaticon.com/512/733/733609.png" alt="깃헙 링크" width="20"/> </a> | <img src="https://cdn-icons-png.flaticon.com/512/4321/4321473.png" alt="" width="20"/> |
 | MLRefactorized | <a href="https://github.com/Goboolean/MLRefactorized"> <img src="https://cdn-icons-png.flaticon.com/512/733/733609.png" alt="깃헙 링크" width="20"/> </a> | <img src="https://cdn-icons-png.flaticon.com/512/4321/4321473.png" alt="" width="20"/> |
+
+
+https://cdn-icons-png.flaticon.com/512/2632/2632839.png
