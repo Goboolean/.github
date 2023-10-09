@@ -53,16 +53,16 @@ Quant Trading 은 주식이나 선물 등의 상품 거래를 수학과 통계�
 
 Goboolean Server 은 **fetch-system.worker** **fetch-system.master** **core-system.command** **core-system.worker** **core-system.join** **manager-server** **identity-server** 이렇게 7개의 어플리케이션 컴포넌트와 **Kafka** **MongoDB** **PostgreSQL** 등의 인프라 이루어진 MSA 아키텍처를 이루고 있습니다.
 
-아키텍처에 대한 자세한 설명은 [링크](https://github.com/Goboolean/.github/tree/main/docs/architecture/full-system) 를 참고해주세요
-
 
 <img src="https://raw.githubusercontent.com/Goboolean/.github/main/asset/diagram/full-system.png" alt="full-diagram" > 
 
 
-
 아키텍처 및 서비스에 대한 구체적인 소개는 아래 링크를 참고해주세요.
 
-
+[full system 아키텍처](https://github.com/Goboolean/.github/tree/main/docs/architecture/full-system)
+[fetch system 아키텍처](https://github.com/Goboolean/.github/tree/main/docs/architecture/fetch-system)
+[core system 아키텍처](https://github.com/Goboolean/.github/tree/main/docs/architecture/core-system)
+[use case](https://github.com/Goboolean/.github/tree/main/docs/architecture/use-case)
 
 
 
@@ -86,6 +86,3 @@ Goboolean Server 은 **fetch-system.worker** **fetch-system.master** **core-syst
 | common | <a href="https://github.com/Goboolean/common"> <img src="https://cdn-icons-png.flaticon.com/512/733/733609.png" alt="깃헙 링크" width="20"/> </a> | <img src="https://cdn-icons-png.flaticon.com/512/5875/5875988.png" alt="" width="20"/> |
 | ops    | <a href="https://github.com/Goboolean/ops"> <img src="https://cdn-icons-png.flaticon.com/512/733/733609.png" alt="깃헙 링크" width="20"/> </a> | <img src="https://cdn-icons-png.flaticon.com/512/4321/4321473.png" alt="" width="20"/> |
 | MLRefactorized | <a href="https://github.com/Goboolean/MLRefactorized"> <img src="https://cdn-icons-png.flaticon.com/512/733/733609.png" alt="깃헙 링크" width="20"/> </a> | <img src="https://cdn-icons-png.flaticon.com/512/4321/4321473.png" alt="" width="20"/> |
-
-
-https://cdn-icons-png.flaticon.com/512/2632/2632839.png
