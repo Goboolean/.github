@@ -59,10 +59,10 @@ Goboolean Server 은 **fetch-system.worker** **fetch-system.master** **core-syst
 
 아키텍처 및 서비스에 대한 구체적인 소개는 아래 링크를 참고해주세요.
 
-[full system 아키텍처](https://github.com/Goboolean/.github/tree/main/docs/architecture/full-system)
-[fetch system 아키텍처](https://github.com/Goboolean/.github/tree/main/docs/architecture/fetch-system)
-[core system 아키텍처](https://github.com/Goboolean/.github/tree/main/docs/architecture/core-system)
-[use case](https://github.com/Goboolean/.github/tree/main/docs/architecture/use-case)
+- [full system 아키텍처](https://github.com/Goboolean/.github/tree/main/docs/architecture/full-system)
+- [fetch system 아키텍처](https://github.com/Goboolean/.github/tree/main/docs/architecture/fetch-system)
+- [core system 아키텍처](https://github.com/Goboolean/.github/tree/main/docs/architecture/core-system)
+- [use case](https://github.com/Goboolean/.github/tree/main/docs/architecture/use-case)
 
 
 
