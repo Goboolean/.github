@@ -4,13 +4,12 @@ Quant Trading 은 주식이나 선물 등의 상품 거래를 수학과 통계�
 
 
 ### Fetch System Architecture
-
-
 <img src="https://raw.githubusercontent.com/Goboolean/.github/main/asset/diagram/fetch-system.png" alt="fetch-system"> 
 
 
 ### Core System Architecture
-
 <img src="https://raw.githubusercontent.com/Goboolean/.github/main/asset/diagram/core-system.png" alt="core-system">
 
 
+### ML System Architecture
+<img src="https://raw.githubusercontent.com/Goboolean/.github/main/asset/diagram/ml-system.png" alt="ml-system">
