@@ -96,7 +96,12 @@ worker은 한 번의 실험에서 최대 90만개의 event 를 발행합니다.
 
 ### Skill
 
-**language**
-| Go | Python |
-| -- | ---- |
-| <img src="https://raw.githubusercontent.com/Goboolean/.github/main/asset/icon/go.svg" alt="Go" width="30px"> | <img src="https://raw.githubusercontent.com/Goboolean/.github/main/asset/icon/python.svg" alt="Python" width="30px">
+**language & framework**
+| Go | Python | tensorflow |
+| -- | ------ | ---------- |
+| <img src="https://raw.githubusercontent.com/Goboolean/.github/main/asset/icon/go.svg" alt="Go" width="30px"> | <img src="https://raw.githubusercontent.com/Goboolean/.github/main/asset/icon/python.svg" alt="Python" width="30px"> | <img src="https://raw.githubusercontent.com/Goboolean/.github/main/asset/icon/tensorflow.svg" alt="Tensorflow" width="30px"> | 
+
+**data streaming**
+| Kafka |
+| ----- |
+| <img src="https://raw.githubusercontent.com/Goboolean/.github/main/asset/icon/kafka.svg" alt="kafka" width="30px"> |
