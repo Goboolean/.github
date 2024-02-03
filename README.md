@@ -36,7 +36,7 @@ fetch system 의 아키텍처 다이어그램은 위와 같습니다.
 **data streaming**
 | kafka | kafka streams | kafka connect |
 | ----- | ------------- | ------------- |
-| <img src="https://raw.githubusercontent.com/Goboolean/.github/main/asset/icon/apachekafka.svg" alt="kafka" width="30px"> | <img src="https://raw.githubusercontent.com/Goboolean/.github/main/asset/icon/apachekafka.svg" alt="kafka" width="30px"> | <img src="https://raw.githubusercontent.com/Goboolean/.github/main/asset/icon/apachekafka.svg" alt="kafka" width="30px"> |
+| <img src="https://raw.githubusercontent.com/Goboolean/.github/main/asset/icon/kafka.svg" alt="kafka" width="30px"> | <img src="https://raw.githubusercontent.com/Goboolean/.github/main/asset/icon/kafka.svg" alt="kafka" width="30px"> | <img src="https://raw.githubusercontent.com/Goboolean/.github/main/asset/icon/kafka.svg" alt="kafka" width="30px"> |
 
 
 ### Kafka Ecosystem
@@ -76,8 +76,14 @@ core system 에는 Event Driven Architecture 이 적용되어 core system 내부
 
 ### Sequence Diagram
 <img src="https://raw.githubusercontent.com/Goboolean/.github/main/asset/diagram/core-system-sequence-diagram.png" alt="core system use case sequence diagram">
-core system 의 core usecase 에 대한 sequence diagram 은 위와 같습니다.
-하나의 유즈케이스는 core system 의 여러 컴포넌트의 상호작용을 통해 서비스되고 있습니다.
+core system 의 핵심 usecase 에 대한 sequence diagram 은 위와 같습니다.
+하나의 유즈케이스가 이벤트를 기반으로 core system 의 여러 컴포넌트의 상호작용을 통해 서비스되고 있는 것을 확인할 수 있습니다.
+
+
+### Client Interaction
+<img src="https://raw.githubusercontent.com/Goboolean/.github/main/asset/diagram/client-interaction.png" alt="core system client interaction">
+client 는 위와 같이 core system 의 주요 서버들과 통신합니다.
+
 
 
 # ML System
@@ -85,8 +91,12 @@ core system 의 core usecase 에 대한 sequence diagram 은 위와 같습니다
 ### Architecture Diagram
 <img src="https://raw.githubusercontent.com/Goboolean/.github/main/asset/diagram/ml-system.png" alt="ml system">
 ml system 의 다이어그램은 위와 같습니다.
-kubeflow 환경에서 머신러닝과 서비스의 통합 솔루션을 제공합니다.
+kubeflow 환경에서 머신러닝과 서비스를 통합하여 관련 서비스를 제공합니다.
 worker은 한 번의 실험에서 최대 90만개의 event 를 발행합니다.
 
-### Sequence Diagram
-<img src="https://raw.githubusercontent.com/Goboolean/.github/main/asset/diagram/ml-system-sequence-diagram.png" alt="core system use case sequence diagram">
+### Skill
+
+**language**
+| Go | Python |
+| -- | ---- |
+| <img src="https://raw.githubusercontent.com/Goboolean/.github/main/asset/icon/go.svg" alt="Go" width="30px"> | <img src="https://raw.githubusercontent.com/Goboolean/.github/main/asset/icon/python.svg" alt="Python" width="30px">
