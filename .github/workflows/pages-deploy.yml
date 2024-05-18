@@ -1,0 +1,48 @@
+name: "Update README from Notion"
+
+on:
+  repository_dispatch:
+    types: [RUN_WORKFLOW_DISPATCH]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Clean Directory
+        run: |
+          for file in assets/img/*
+          do
+              rm -rf "$file"                  
+          done
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "18.2"
+
+      - run: npm install
+
+      - name: Run Notion Import Script
+        run: node notion-import.js
+        env:
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+          DATABASE_ID: ${{ secrets.DATABASE_ID }}
+
+      - name: Help Me Please
+        ls
+
+      - name: Commit README
+        uses: stefanzweifel/git-auto-commit-action@v4
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          commit_message: "Update README from Notion"
+          branch: main
+          commit_user_name: "Notion-to-Github-Bot"
